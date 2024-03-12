@@ -1,0 +1,50 @@
+mat-toolbar {
+  height: 40px;
+  background: none;
+  color: rgb(3, 185, 251);
+  position: relative;
+  padding: 0px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+  margin-bottom: 20px;
+}
+
+.material-icons {
+  margin-bottom: 20px;
+}
+
+.input_box {
+  width: 300px;
+  height: auto;
+}
+
+.input_box mat-form-field {
+  width: 100%;
+
+}
+
+.button_box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: rgb(3, 185, 251);
+  color: white;
+}
+
+@media (min-width:381px) and (max-width:600px) {
+  .input_box {
+    width: 250px;
+  }
+}
+
+@media(max-width:380px) {
+  .input_box {
+    width: 100%;
+  }
+}

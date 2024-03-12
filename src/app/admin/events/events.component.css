@@ -1,0 +1,32 @@
+.events_main_div{
+    width: 100%;
+    height: auto;
+}
+.annual_day_header h1 {
+    width: 100%;
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    background-color: lime;
+  }
+  .annual_day_div{
+    width: 100%;
+    height: 400px
+  }
+  .annual_day_div swiper{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+  }
+  .img_box{
+    width: 100%;
+    height: 100%;
+  }
+  .annual_day_div .swiper img{
+    width: 300px;
+    height: 300px;
+  }
+ 

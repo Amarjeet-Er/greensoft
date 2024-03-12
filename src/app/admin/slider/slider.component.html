@@ -1,0 +1,179 @@
+<div id="wrapper">
+  <div id="slider_div">
+    <div class="main_heder" (scroll)="onscroll()" [ngClass]="navbarfixed?'fixed':'nofixed'">
+      <div class="logo">
+        <img src="assets/IT Company in Bihar2.png">
+      </div>
+      <div class="nabbar" [class.nabbar_class]="nabbarvariable" (click)="openmenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menubox" [class.menuclass]="menuvariable">
+        <ul>
+          <a (click)="closemenu1()" routerLink="/home" routerLinkActive="active">
+            <li class="hover-line">Home</li>
+          </a>
+          <a (click)="closemenu3()" routerLink="/services" routerLinkActive="active">
+            <li class="hover-line">Services</li>
+          </a>
+          <a (click)="closemenu4()" routerLink="/training" routerLinkActive="active">
+            <li class="hover-line">Training</li>
+          </a>
+          <a (click)="closemenu5()" routerLink="/contact" routerLinkActive="active">
+            <li class="hover-line">Contact</li>
+          </a>
+          <a (click)="closemenu2()" routerLink="/about" routerLinkActive="active">
+            <li class="hover-line">About</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+
+    <swiper [navigation]="true" [navigation]="true" [pagination]="{ clickable: true }" [autoplay]="{
+      delay: 5000,
+      disableOnInteraction: false
+    }">
+
+      <ng-template swiperSlide>
+        <div class="image_area">
+          <div class="over_lay"></div>
+          <img src="assets/computer_programming_in_hajipur2.jpg" alt="Random first slide" />
+        </div>
+
+        <div class="carousel-caption">
+          <h2>Digital Marketing</h2>
+          <div class="animatedtextbox">
+            <h3 class="creative">Reach Business Through Social Media</h3>
+          </div>
+          <div class="button_area">
+            <div class="button_area_1" (click)="openenquiry()">Enquiry</div>
+            <div class="button_area_2">Contact us</div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="image_area">
+          <div class="over_lay"></div>
+          <img src="assets/computer_classes_in_hajipur.jpg" alt="Random second slide" />
+        </div>
+
+        <div class="carousel-caption">
+          <h2> Best Deals</h2>
+          <div class="animatedtextbox">
+            <h3 class="creative"> Valuable Website with Cost Effective</h3>
+          </div>
+          <div class="button_area">
+            <div class="button_area_1" (click)="openenquiry()">Enquiry</div>
+            <div class="button_area_2">Contact us</div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="image_area">
+          <div class="over_lay"></div>
+          <img src="assets/SEOppt.jpg" alt="Random third slide" />
+        </div>
+
+        <div class="carousel-caption">
+          <h2> SEO Support</h2>
+          <div class="animatedtextbox">
+            <h3 class="creative">Rank Your Website at Top Position</h3>
+          </div>
+          <div class="button_area">
+            <div class="button_area_1" (click)="openenquiry()">Enquiry</div>
+            <div class="button_area_2">Contact us</div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="image_area">
+          <div class="over_lay"></div>
+          <img src="assets/Java_programming_classes_in_Hajipur.jpg" alt="Random third slide" />
+        </div>
+
+        <div class="carousel-caption">
+          <h2> Web Development</h2>
+          <div class="animatedtextbox">
+            <h3 class="creative">Get Quality System & Website</h3>
+          </div>
+          <div class="button_area">
+            <div class="button_area_1" (click)="openenquiry()">Enquiry</div>
+            <div class="button_area_2">Contact us</div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="image_area">
+          <div class="over_lay"></div>
+          <img src="assets/Java_programming_classes_in_patna.jpg" alt="Random third slide" />
+        </div>
+
+        <div class="carousel-caption">
+          <h2>Project Training</h2>
+          <div class="animatedtextbox">
+            <h3 class="creative">Get Trained & Ineternship With Our Expert </h3>
+          </div>
+          <div class="button_area">
+            <div class="button_area_1" (click)="openenquiry()">Enquiry</div>
+            <div class="button_area_2">Contact us</div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="image_area">
+          <div class="over_lay"></div>
+          <img src="assets/Computer_designing_courses_Patna2.jpg" alt="Random third slide" />
+        </div>
+
+        <div class="carousel-caption">
+          <h2>Software Development</h2>
+          <div class="animatedtextbox">
+            <h3 class="creative">We Provide Solution for Your Buisness</h3>
+          </div>
+          <div class="button_area">
+            <div class="button_area_1" (click)="openenquiry()">Enquiry</div>
+            <div class="button_area_2">Contact us</div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="image_area">
+          <div class="over_lay"></div>
+          <img src="assets/bulk-sms5.jpg" alt="Random third slide" />
+        </div>
+
+        <div class="carousel-caption">
+          <h2>Bulk SMS</h2>
+          <div class="animatedtextbox">
+            <h3 class="creative">Reach Out to Millions with in Seconds</h3>
+          </div>
+          <div class="button_area">
+            <div class="button_area_1" (click)="openenquiry()">Enquiry</div>
+            <div class="button_area_2">Contact us</div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="image_area">
+          <div class="over_lay"></div>
+          <img src="assets/Web_development_courses_in_hajipur2.jpg" alt="Random third slide" />
+        </div>
+
+        <div class="carousel-caption">
+          <h2>Networking Service</h2>
+          <div class="animatedtextbox">
+            <h3 class="creative">On Site Remote IT Support</h3>
+          </div>
+          <div class="button_area">
+            <div class="button_area_1" (click)="openenquiry()">Enquiry</div>
+            <div class="button_area_2">Contact us</div>
+          </div>
+        </div>
+      </ng-template>
+
+    </swiper>
+
+  </div>
+
+</div>

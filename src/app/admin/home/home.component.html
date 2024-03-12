@@ -1,0 +1,17 @@
+<div id="wrapper">
+    <div id="header"><app-header></app-header></div>
+    <div id="slider"><app-slider></app-slider></div>
+    <div class="container_apna">
+        <router-outlet></router-outlet>
+    </div>
+    <div id="footer"><app-footer></app-footer></div>
+    <div class="example-button-container">
+        <button mat-fab color="warn" aria-label="Example icon button with a delete icon" (click)="onclick()"
+            (scroll)="onscroll()" [id]="scrollerbtn" [ngClass]="singh?'whenscroll':'whennotscroll'">
+            <mat-icon>keyboard_arrow_up</mat-icon>
+        </button>
+    </div>
+    <div class="whatsap_image">
+        <a href="https://wa.me/91 9470407608"> <img src="assets/bestcoding class.png"></a>
+     </div>
+</div>

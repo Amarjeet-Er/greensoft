@@ -1,0 +1,48 @@
+<mat-toolbar>
+    <span class="example-spacer">Enquiry</span>
+    <mat-icon mat-dialog-close>cancel</mat-icon>
+</mat-toolbar>
+<div mat-dialog-content>
+    <form [formGroup]="enquiry_form">
+        <div class="input_box">
+            <mat-form-field appearance="fill">
+                <mat-label>Name</mat-label>
+                <input matInput placeholder="Enter Your Name" formControlName="Name">
+            </mat-form-field><br>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Types of Enquiry</mat-label>
+                <mat-select formControlName="Type">
+                    <mat-option value="Web Development"> Web Development</mat-option>
+                    <mat-option value="Software Development"> Software Development</mat-option>
+                    <mat-option value="SEO Support"> SEO Support</mat-option>
+                    <mat-option value="Networking Services"> Networking Services</mat-option>
+                    <mat-option value="Domain & hosting Support"> Domain & hosting Support</mat-option>
+                    <mat-option value="Project Training"> Project Training</mat-option>
+                    <mat-option value=" Bulk SMS"> Bulk SMS</mat-option>
+                    <mat-option value="Other">Other</mat-option>
+                </mat-select>
+            </mat-form-field><br>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Mobile No.</mat-label>
+                <input matInput placeholder="Enter Mobile No." type="number" required
+                    onkeypress=" return this.value.length < 10"
+                    oninput="if(this.value.length>=10) {this.value = this.value.sclice (0,10);}" formControlName="Mobile">
+            </mat-form-field><br>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="Enter Your Email"  formControlName="Email">
+            </mat-form-field><br>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Message</mat-label>
+                <textarea matInput placeholder="Enter Your Message" formControlName="Message"></textarea>
+            </mat-form-field>
+        </div>
+    </form>
+    <div class="button_box">
+        <button mat-raised-button type="submit" (click)="onsubmit()">Send</button>
+    </div>
+</div>

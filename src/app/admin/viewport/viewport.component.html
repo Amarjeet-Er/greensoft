@@ -1,0 +1,459 @@
+<div class="view_port">
+    <div class="details_boxes">
+        <div class="detail_box_1" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="500"
+            data-aos-easing="ease-in-sine">
+            <div class="happy_client1">
+                <mat-icon>group</mat-icon>
+
+            </div>
+            <div class="happy_client2">
+                <h5>Happy Clients</h5>
+                <h1>{{projectcount}}<span>+</span></h1>
+            </div>
+        </div>
+        <div class="detail_box_2" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="500"
+            data-aos-easing="ease-in-sine">
+            <div class="happy_client1" style="background-color:  rgb(6, 163, 218);">
+                <mat-icon style="color: white;">done</mat-icon>
+            </div>
+            <div class="happy_client2">
+                <h5 style="color:  rgb(6, 163, 218);">Projects Done</h5>
+                <h1 style="color: black;">{{projectdeal}}<span>+</span></h1>
+            </div>
+        </div>
+        <div class="detail_box_3" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="500"
+            data-aos-easing="ease-in-sine">
+            <div class="happy_client1">
+                <mat-icon>group</mat-icon>
+
+            </div>
+            <div class="happy_client2">
+                <h5>Happy Trainee</h5>
+                <h1>{{traineecount}}<span>+</span></h1>
+            </div>
+        </div>
+    </div>
+    <div class="about_us_box">
+        <p>
+            Green Soft is one of the leading IT company and training institute in Hajipur Bihar. Green Soft has been founded by MD Saddam Husain in 2016. Green Soft is one of the best software development company in Hajipur. We provide the services like Software development, Web development, Digital marketing, SEO Support, E-Commerce website, Web hosting, Logo design and AMC services for computer hardware and networking and advanced Industrial Training on Software Development. We provide all types of IT services. Full Stack Development is the passion for our team and we give best output through our design. The various B2B and B2C plateform have given us best satisfaction empowered us to fulfill the complete requirements of it industries and business. We have good exprience in managing simple to complex projects. If you wish to get trained or advance your coding skills, you should get in touch with Green Soft Traning Institute.
+        </p>
+    </div>
+    
+    <div class="our_client_header">
+        <h1>Our Clients</h1>
+    </div>
+    <div class="our_clients">
+        <swiper [navigation]="true" [config]="swiperConfig" [autoplay]="{
+            delay: 3000,
+            disableOnInteraction: false
+          }">
+            <ng-template swiperSlide>
+                <mat-card class="example-card" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="500"
+                    data-aos-easing="ease-in-sine">
+                    <div class="image_box">
+                        <div class="overlay"><a href="https://addbox.in/"><button mat-raised-button>Read
+                                    more...</button></a></div>
+                        <img mat-card-image src="assets/Computer classes in hajipur.png" alt="Photo">
+                    </div>
+                    <mat-card-content>
+                        <h3>Addbox</h3>
+                        <p> Advertising company</p>
+                    </mat-card-content>
+                </mat-card>
+            </ng-template>
+
+            <ng-template swiperSlide>
+                <mat-card class="example-card" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="550"
+                    data-aos-easing="ease-in-sine">
+                    <div class="image_box">
+                        <div class="overlay"><a href="https://sankalpcomputer.com/"><button mat-raised-button>Read
+                                    more...</button></a></div>
+                        <img mat-card-image src="assets/Computer classes in pat na.jpeg" alt="Photo">
+                    </div>
+                    <mat-card-content>
+                        <h3>Sankalp</h3>
+                        <p>Computer Coaching Institute</p>
+                    </mat-card-content>
+                </mat-card>
+            </ng-template>
+            <ng-template swiperSlide>
+                <mat-card class="example-card" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="600"
+                    data-aos-easing="ease-in-sine">
+                    <div class="image_box">
+                        <div class="overlay"><a href="http://newtonphysics.com/"><button mat-raised-button>Read
+                                    more...</button></a></div>
+                        <img mat-card-image src="assets/computer coaching in patna.png" alt="Photo">
+                    </div>
+                    <mat-card-content>
+                        <h3>Newton</h3>
+                        <p>Physics Coaching Institutes</p>
+                    </mat-card-content>
+                </mat-card>
+            </ng-template>
+            <ng-template swiperSlide>
+                <mat-card class="example-card" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="image_box">
+                        <div class="overlay"><a href="http://adityaradhaya.com/"><button mat-raised-button>Read
+                                    more...</button></a></div>
+                        <img mat-card-image src="assets/computer coaching in hajipur.jpg" alt="Photo">
+                    </div>
+                    <mat-card-content>
+                        <h3>Adityaradhaya</h3>
+                        <p>Copy Manufacturing Company</p>
+                    </mat-card-content>
+                </mat-card>
+            </ng-template>
+
+            <ng-template swiperSlide>
+                <mat-card class="example-card" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="550"
+                    data-aos-easing="ease-in-sine">
+                    <div class="image_box">
+                        <div class="overlay"><a href="http://sankalpfoundations.org/"><button mat-raised-button>Read
+                                    more...</button></a></div>
+                        <img mat-card-image src="assets/Computer classes in pat na.jpeg" alt="Photo">
+                    </div>
+                    <mat-card-content>
+                        <h3>Sankalp Foundation</h3>
+                        <p>Computer Coaching Institute</p>
+                    </mat-card-content>
+                </mat-card>
+            </ng-template>
+            <ng-template swiperSlide>
+                <mat-card class="example-card" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="image_box">
+                        <div class="overlay"><a href="https://rohiniagro.net/login.php"><button mat-raised-button>Read
+                                    more...</button></a></div>
+                        <img mat-card-image src="assets/computer coaching in bihar.png" alt="Photo">
+                    </div>
+                    <mat-card-content>
+                        <h3>Vikash Enterprises</h3>
+                        <p>Medical Hall in Your Area</p>
+                    </mat-card-content>
+                </mat-card>
+            </ng-template>
+            <ng-template swiperSlide>
+                <mat-card class="example-card" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="650"
+                    data-aos-easing="ease-in-sine">
+                    <div class="image_box">
+                        <div class="overlay"><a href="http://discoveryiti.co.in/"><button mat-raised-button>Read
+                                    more...</button></a></div>
+                        <img mat-card-image src="assets/DCA TALLY classes in hajipur.png" alt="Photo">
+                    </div>
+                    <mat-card-content>
+                        <h3>Discovery ITI</h3>
+                        <p>ITI Training Institute in Jandaha</p>
+                    </mat-card-content>
+                </mat-card>
+            </ng-template>
+
+            <ng-template swiperSlide>
+                <mat-card class="example-card" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="650"
+                    data-aos-easing="ease-in-sine">
+                    <div class="image_box">
+                        <div class="overlay"><a href="http://globaliti.co.in/"><button mat-raised-button>Read
+                                    more...</button></a></div>
+                        <img mat-card-image src="assets/DCA TALLY classes in hajipur.png" alt="Photo">
+                    </div>
+                    <mat-card-content>
+                        <h3>Global ITI</h3>
+                        <p>ITI Training Institute in Gajipur</p>
+                    </mat-card-content>
+                </mat-card>
+            </ng-template>
+        </swiper>
+    </div>
+
+
+
+    <div class="our_services_header">
+        <h1>Our Services</h1>
+    </div>
+    <div class="our_services">
+        <swiper [navigation]="true" [config]="swiperConfig" [autoplay]="{
+            delay: 3000,
+            disableOnInteraction: false
+          }">
+            <ng-template swiperSlide>
+                <a href="https://greensoft.net.in/gselearning/">
+                    <mat-card class="example-card" data-aos="fade-right" data-aos-offset="200" data-aos-duration="500"
+                        data-aos-easing="ease-in-sine">
+                        <div class="img_div">
+                            <img src="assets/Bca mca classes in patna.jpg">
+                        </div>
+                        <mat-card-content>
+                            <h3>E-Learning</h3>
+                            <p>Online Educational Platform</p>
+                        </mat-card-content>
+                    </mat-card>
+                </a>
+            </ng-template>
+            <ng-template swiperSlide>
+                <a href="https://www.greensoft.net.in/oes/">
+                    <mat-card class="example-card" data-aos="fade-right" data-aos-offset="200" data-aos-duration="550"
+                        data-aos-easing="ease-in-sine">
+                        <div class="img_div">
+                            <img src="assets/Bca classes in hajipu.png">
+                        </div>
+                        <mat-card-content>
+                            <h3>OES</h3>
+                            <p>Online Examination System</p>
+                        </mat-card-content>
+                    </mat-card>
+                </a>
+            </ng-template>
+
+            <ng-template swiperSlide>
+                <a href="https://greensoft.net.in/cms/">
+                    <mat-card class="example-card" data-aos="fade-left" data-aos-offset="200" data-aos-duration="600"
+                        data-aos-easing="ease-in-sine">
+                        <div class="img_div">
+                            <img src="assets/Coding classes in hajipur.png">
+                        </div>
+                        <mat-card-content>
+                            <h3>CMS</h3>
+                            <p>Coaching Management System</p>
+                        </mat-card-content>
+                    </mat-card>
+                </a>
+            </ng-template>
+            <ng-template swiperSlide>
+                <a href="#">
+                    <mat-card class="example-card" data-aos="fade-left" data-aos-offset="200" data-aos-duration="650"
+                        data-aos-easing="ease-in-sine">
+                        <div class="img_div">
+                            <img src="assets/Bca coaching in hajipur.png">
+                        </div>
+                        <mat-card-content>
+                            <h3>SMS</h3>
+                            <p>School Management System</p>
+                        </mat-card-content>
+                    </mat-card>
+                </a>
+            </ng-template>
+            <ng-template swiperSlide>
+                <a href="#">
+                    <mat-card class="example-card" data-aos="fade-right" data-aos-offset="200" data-aos-duration="700"
+                        data-aos-easing="ease-in-sine">
+                        <div class="img_div">
+                            <img src="assets/Computer institute in hajipur.png">
+                        </div>
+                        <mat-card-content>
+                            <h3>OBS</h3>
+                            <p>Online Billing System</p>
+                        </mat-card-content>
+                    </mat-card>
+                </a>
+            </ng-template>
+        </swiper>
+
+    </div>
+
+
+    <div class="our_team_header">
+        <h1>Our Team</h1>
+    </div>
+    <div class="main">
+        <swiper [navigation]="true" [config]="swiperConfig" [autoplay]="{
+            delay: 6000,
+            disableOnInteraction: false
+          }">
+               [navigation]="true" [config]="swiperConfig">
+            <ng-template swiperSlide>
+                <div class="profile-card" data-aos="flip-right" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="img">
+                        <img src="assets/akhilesh kumar greensoft.png" alt="Photo">
+                    </div>
+                    <div class="caption">
+                        <h3>Akhilesh Kumar</h3>
+                        <p>Sr. Software Developer</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/Kumar.akhilesh.hjp"><fa-icon
+                                    [icon]="faFacebook"></fa-icon></a>
+                            <a href="https://instagram.com/kumar_akhilesh_01?igshid=YzgyMTM2MGM="><fa-icon
+                                    [icon]="faInstagram"></fa-icon></a>
+                            <a href="https://twitter.com/Kumar_Akhilesh0?t=OaFpqjGDDda6IXlB3Ml7IA&s=09"><fa-icon
+                                    [icon]="faTwitter"></fa-icon></a>
+                            <a href="https://www.linkedin.com/in/kumarakhilesh01"><fa-icon
+                                    [icon]="faLinkedin"></fa-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+
+            <ng-template swiperSlide>
+                <div class="profile-card" data-aos="flip-right" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="img">
+                        <img src="assets/ayush singh greensoft.png" alt="Photo">
+                    </div>
+                    <div class="caption">
+                        <h3>Ayush Singh</h3>
+                        <p>Full Stack Developer</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=100047675027738&mibextid=ZbWKwL"><fa-icon
+                                    [icon]="faFacebook"></fa-icon></a>
+                            <a href="https://instagram.com/theayushkumar_?igshid=ZmZhODViOGI="><fa-icon
+                                    [icon]="faInstagram"></fa-icon></a>
+                            <a href="https://twitter.com/theayushkumar_?t=u_1Bubv0gkm2bItwE96znA&s=09"><fa-icon
+                                    [icon]="faTwitter"></fa-icon></a>
+                            <a href="https://www.linkedin.com/in/theayushkumar03"><fa-icon
+                                    [icon]="faLinkedin"></fa-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="profile-card" data-aos="flip-left" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="img">
+                        <img src="assets/anshu kumari greensoft.png" alt="Photo">
+                    </div>
+                    <div class="caption">
+                        <h3>Anshu Kumari</h3>
+                        <p>Full Stack Developer</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/anshu.chourasiya.9047"><fa-icon
+                                    [icon]="faFacebook"></fa-icon></a>
+                            <a href="https://instagram.com/_anshu_priya123?igshid=ZDdkNTZiNTM="><fa-icon
+                                    [icon]="faInstagram"></fa-icon></a>
+                            <a href="#"><fa-icon [icon]="faTwitter"></fa-icon></a>
+                            <a href="https://www.linkedin.com/in/kumari-anshu-1100b7238/"><fa-icon
+                                    [icon]="faLinkedin"></fa-icon></a>
+                        </div>
+                    </div>
+                </div>
+
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="profile-card" data-aos="flip-left" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="img">
+                        <img src="assets/amarjit kumar greensoft.png" alt="Photo">
+                    </div>
+                    <div class="caption">
+                        <h3>Amarjeet Kumar</h3>
+                        <p>Full Stack Developer</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/attractiontechnical?mibextid=ZbWKwL"><fa-icon
+                                    [icon]="faFacebook"></fa-icon></a>
+                            <a href="https://instagram.com/a_marjee_t?igshid=ZDdkNTZiNTM="><fa-icon
+                                    [icon]="faInstagram"></fa-icon></a>
+                            <a href="#"><fa-icon [icon]="faTwitter"></fa-icon></a>
+                            <a href="https://www.linkedin.com/in/amarjeet-kumar455"><fa-icon
+                                    [icon]="faLinkedin"></fa-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="profile-card" data-aos="flip-right" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="img">
+                        <img src="assets/prince raj greensoft.png" alt="Photo">
+                    </div>
+                    <div class="caption">
+                        <h3>Prince Raj</h3>
+                        <p>SEO Expert</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/princeraj.pk.1?mibextid=ZbWKwL"><fa-icon
+                                    [icon]="faFacebook"></fa-icon></a>
+                            <a href="http://instagram.com/princeraj2803"><fa-icon [icon]="faInstagram"></fa-icon></a>
+                            <a href="#"><fa-icon [icon]="faTwitter"></fa-icon></a>
+                            <a href="https://www.linkedin.com/in/prince-raj-41b53121b"><fa-icon
+                                    [icon]="faLinkedin"></fa-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="profile-card" data-aos="flip-right" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="img">
+                        <img src="assets/munna kumar greensoft.png" alt="Photo">
+                    </div>
+                    <div class="caption">
+                        <h3>Munna Maical</h3>
+                        <p>Front End Developer</p>
+                        <div class="social-links">
+                            <a
+                                href="https://m.facebook.com/munna.maical.716195?eav=AfYo3yF6bBmJAONUeucad7npIMla7a2Tidd_CofgWK95kNfLpfBqS-WMtJIjNH4dD-s&refid=7&paipv=0"><fa-icon
+                                    [icon]="faFacebook"></fa-icon></a>
+                            <a href="#"><fa-icon [icon]="faInstagram"></fa-icon></a>
+                            <a href="#"><fa-icon [icon]="faTwitter"></fa-icon></a>
+                            <a href="https://www.linkedin.com/in/munna-kumar-0900a5255"><fa-icon
+                                    [icon]="faLinkedin"></fa-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="profile-card" data-aos="flip-right" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="img">
+                        <img src="assets/Sahil Singh Greensoft.png" alt="Photo">
+                    </div>
+                    <div class="caption">
+                        <h3>Sahil Singh</h3>
+                        <p>Front End Developer</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=100033887234838"><fa-icon
+                                    [icon]="faFacebook"></fa-icon></a>
+                            <a href="https://www.instagram.com/kunwar_sahil_pratap_chandel/"><fa-icon
+                                    [icon]="faInstagram"></fa-icon></a>
+                            <a href="https://twitter.com/27_shahil"><fa-icon [icon]="faTwitter"></fa-icon></a>
+                            <a href="https://www.linkedin.com/in/sahil-singh-82b270268"><fa-icon [icon]="faLinkedin"></fa-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="profile-card" data-aos="flip-left" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="img">
+                        <img src="assets/rohit kumar greensoft.jpg" alt="Photo">
+                    </div>
+                    <div class="caption">
+                        <h3>Rohit Kumar</h3>
+                        <p>Front End Developer</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=100074630921621"><fa-icon
+                                    [icon]="faFacebook"></fa-icon></a>
+                            <a href="https://www.instagram.com/me_rohit_kumar_34/?igshid=ZDdkNTZiNTM%3D"><fa-icon
+                                    [icon]="faInstagram"></fa-icon></a>
+                            <a href="https://twitter.com/RohitKu84499807?t=4fsSTARDXpWsTQgyjW5QbQ&s=08"><fa-icon
+                                    [icon]="faTwitter"></fa-icon></a>
+                            <a href="https://www.linkedin.com/in/rohit-kumar-18a749245"><fa-icon
+                                    [icon]="faLinkedin"></fa-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="profile-card" data-aos="flip-left" data-aos-offset="200" data-aos-duration="750"
+                    data-aos-easing="ease-in-sine">
+                    <div class="img">
+                        <img src="assets/img8.png" alt="Photo">
+                    </div>
+                    <div class="caption">
+                        <h3>Dhanraj Kumar</h3>
+                        <p>Front End Developer</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=100024913960797&mibextid=ZbWKwL"><fa-icon
+                                    [icon]="faFacebook"></fa-icon></a>
+                            <a href="https://instagram.com/dh.anraj8696?igshid=ZDdkNTZiNTM="><fa-icon
+                                    [icon]="faInstagram"></fa-icon></a>
+                            <a href="#"><fa-icon [icon]="faTwitter"></fa-icon></a>
+                            <a href="https://www.linkedin.com/in/dhanraj-kumar-464448264"><fa-icon
+                                    [icon]="faLinkedin"></fa-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </swiper>
+
+    </div>
+
+</div>
